@@ -1,0 +1,85 @@
+/*
+Autor: Sebastian Aguirre
+Este archivo contiene los estilos para la evaluación HTML.
+*/
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color: forestgreen;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto; /* Centrado del formulario */
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#unicoNombre {
+    border: 2px solid #555;
+    background-color: #eef;
+}
+
+/* Comentario: Aquí se puede agregar animación al botón en el futuro */
+/* Comentario: Posible tema oscuro más adelante */
+/* Comentario: Agregar media queries para dispositivos móviles */
+/* Comentario: Añadir efectos de transición en hover */
+/* Comentario: Espacio reservado para fuente personalizada */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
